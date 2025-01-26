@@ -1,1 +1,10 @@
-rootProject.name = 'board'
+rootProject.name = 'board-v1'
+
+include 'common'
+include 'service'
+include 'service:board'
+include 'service:board-read'
+include 'service:board-comment'
+include 'service:board-hot'
+include 'service:board-like'
+include 'service:board-view'
